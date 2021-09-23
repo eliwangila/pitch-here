@@ -17,7 +17,7 @@ def index():
     title = 'Home - Welcome to Perfect Pitch'
 
     # Getting reviews by category
-    interview_piches = Pitch.get_pitches('interview')
+    interview_piches = Pitch.get_pitches('sport')
     product_piches = Pitch.get_pitches('product')
     promotion_pitches = Pitch.get_pitches('promotion')
 
